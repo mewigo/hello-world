@@ -1123,7 +1123,7 @@ if (typeof newsletter_check !== "function") {
 //]]>
 </script>
 <div class="newsletter newsletter-subscription">
-	<form method="post" action="http://localhost/thekeynote/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
+	<form method="post" action="<?php echo ... ?>/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
 		<input class="newsletter-email" type="email" name="ne" size="30" required placeholder="<?php _e('Please fill your email', 'gdlr_translate'); ?>" />
 		<input class="newsletter-submit gdlr-button with-border" type="submit" value="<?php _e('Subscribe', 'gdlr_translate'); ?>"/>
 	</form>
