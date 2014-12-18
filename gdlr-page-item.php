@@ -1012,7 +1012,7 @@
 		}
 	}
 	
-	// print classic page list
+	// print classic page list - Version 2
 	if( !function_exists('gdlr_get_classic_page_list') ){
 		function gdlr_get_classic_page_list($query, $size, $thumbnail_size, $layout = 'fitRows'){
 			$current_size = 0;
